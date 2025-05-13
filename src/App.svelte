@@ -5,9 +5,9 @@
 	import electronLogo from "./assets/electron.svg";
 	import tailwindLogo from "./assets/tailwind.svg";
 
-	const nodeVersion = api.node();
-	const chromeVersion = api.chrome();
-	const electronVersion = api.electron();
+	//const nodeVersion = api.node();
+	//const chromeVersion = api.chrome();
+	//const electronVersion = api.electron();
 </script>
 
 <main class="min-h-screen bg-slate-900 text-white flex flex-col">
@@ -53,8 +53,8 @@
 	<section class="flex flex-col items-center justify-center mt-6">
 		<h1 class="text-4xl font-bold">Vite + Svelte + Electron + Tailwind</h1>
 		<p class="mt-6">
-			Node version: {nodeVersion} | Chrome version: {chromeVersion} | Electron version:
-			{electronVersion}
+				<!-- Node version: {nodeVersion} | Chrome version: {chromeVersion} | Electron version:
+			{electronVersion}-->
 		</p>
 		<div>
 			<Counter />
